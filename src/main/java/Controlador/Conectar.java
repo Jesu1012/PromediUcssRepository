@@ -3,6 +3,7 @@ import java.sql.*;
 public class Conectar {
     public static synchronized Connection getConexion() {
         Connection conex = null;
+        //Jesus estuvo aqui
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost/bdcalculator?serverTimezone=UTC";
